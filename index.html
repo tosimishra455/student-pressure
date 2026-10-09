@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unspoken — Student Life, Honestly</title>
+    <meta name="description" content="A space for students to share their stories, thoughts, struggles and college experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">u.</span>
+            <span>unspoken<span class="logo-dot">.</span></span>
+        </a>
+
+        <nav>
+            <a href="#topics">Explore</a>
+            <a href="#share">Share your story</a>
+            <a href="#wall">Message wall</a>
+        </nav>
+
+        <a href="#share" class="nav-button">Speak your mind ↗</a>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="live-dot"></span>
+                    A SPACE FOR STUDENT VOICES
+                </div>
+
+                <h1>
+                    College life is<br>
+                    <span class="gradient-text">more than</span><br>
+                    what you see.
+                </h1>
+
+                <p class="hero-description">
+                    The pressure, the friendships, the late-night overthinking.
+                    A place to say what you really feel, without pretending
+                    everything is fine.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#share" class="primary-button">Share your story <span>↗</span></a>
+                    <a href="#wall" class="secondary-button">Read student stories ↓</a>
+                </div>
+
+                <div class="hero-note">
+                    <div class="avatar-stack">
+                        <span>✦</span>
+                        <span>♡</span>
+                        <span>☻</span>
+                    </div>
+                    <p>Your feelings are valid. Your voice matters.</p>
+                </div>
+            </div>
+
+            <div class="hero-floating-card card-top">
+                <span class="card-emoji">🌙</span>
+                <div>
+                    <strong>Late-night thoughts</strong>
+                    <p>Things we never say out loud.</p>
+                </div>
+            </div>
+
+            <div class="hero-floating-card card-bottom">
+                <span class="card-emoji">💜</span>
+                <div>
+                    <strong>You are not alone.</strong>
+                    <p>Someone might feel the same.</p>
+                </div>
+            </div>
+
+            <div class="hero-scroll">SCROLL TO EXPLORE ↓</div>
+        </section>
+
+        <!-- MOVING TEXT -->
+        <div class="ticker">
+            <div class="ticker-track">
+                <span>REAL STORIES</span><i>✳</i>
+                <span>NO JUDGEMENT</span><i>✳</i>
+                <span>STUDENT LIFE</span><i>✳</i>
+                <span>YOUR VOICE MATTERS</span><i>✳</i>
+                <span>REAL STORIES</span><i>✳</i>
+                <span>NO JUDGEMENT</span><i>✳</i>
+                <span>STUDENT LIFE</span><i>✳</i>
+                <span>YOUR VOICE MATTERS</span><i>✳</i>
+            </div>
+        </div>
+
+        <!-- TOPICS -->
+        <section class="section topics-section" id="topics">
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">LET'S TALK ABOUT IT</p>
+                    <h2>It's not just you.<br><span class="muted-text">We get it.</span></h2>
+                </div>
+                <p class="heading-description">
+                    College comes with a lot more than assignments.
+                    Explore the things students think about every day.
+                </p>
+            </div>
+
+            <div class="topic-grid">
+                <button class="topic-card topic-purple" data-topic="Academic Pressure">
+                    <span class="topic-number">01 / STUDIES</span>
+                    <span class="topic-icon">📚</span>
+                    <h3>Academic pressure</h3>
+                    <p>Deadlines, grades, backlogs and the fear of falling behind.</p>
+                    <span class="topic-link">Share your thoughts ↗</span>
+                </button>
+
+                <button class="topic-card topic-blue" data-topic="Mental Load">
+                    <span class="topic-number">02 / MIND</span>
+                    <span class="topic-icon">🌧️</span>
+                    <h3>The mental load</h3>
+                    <p>Overthinking everything while acting like everything is okay.</p>
+                    <span class="topic-link">Share your thoughts ↗</span>
+                </button>
+
+                <button class="topic-card topic-pink" data-topic="Friendships">
+                    <span class="topic-number">03 / PEOPLE</span>
+                    <span class="topic-icon">🫂</span>
+                    <h3>Friendships & people</h3>
+                    <p>Finding your people, feeling left out and learning to let go.</p>
+                    <span class="topic-link">Share your thoughts ↗</span>
+                </button>
+
+                <button class="topic-card topic-orange" data-topic="Future & Career">
+                    <span class="topic-number">04 / FUTURE</span>
+                    <span class="topic-icon">🧭</span>
+                    <h3>What comes next?</h3>
+                    <p>Placements, career confusion and comparing your journey.</p>
+                    <span class="topic-link">Share your thoughts ↗</span>
+                </button>
+
+                <button class="topic-card topic-green" data-topic="Hostel Life">
+                    <span class="topic-number">05 / HOSTEL</span>
+                    <span class="topic-icon">🏠</span>
+                    <h3>Hostel diaries</h3>
+                    <p>Homesickness, roommates, midnight talks and independence.</p>
+                    <span class="topic-link">Share your thoughts ↗</span>
+                </button>
+
+                <button class="topic-card topic-yellow" data-topic="Things Left Unsaid">
+                    <span class="topic-number">06 / UNSPOKEN</span>
+                    <span class="topic-icon">💌</span>
+                    <h3>Things left unsaid</h3>
+                    <p>The words you wanted to say but never found the courage to.</p>
+                    <span class="topic-link">Share your thoughts ↗</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- QUOTE SECTION -->
+        <section class="quote-section">
+            <div class="quote-mark">“</div>
+            <p>You don't have to have your life figured out<br class="desktop-break">
+                just because you're in college.</p>
+            <span>— A LITTLE REMINDER FOR YOU</span>
+        </section>
+
+        <!-- SHARE STORY -->
+        <section class="section share-section" id="share">
+            <div class="share-info">
+                <p class="section-label">YOUR SPACE. YOUR RULES.</p>
+                <h2>Let it out.<br><span class="gradient-text">We've got you.</span></h2>
+                <p>
+                    Write about the thing that's been on your mind.
+                    It can be a small win, a difficult day, a confession,
+                    or something you wish someone understood.
+                </p>
+
+                <div class="privacy-feature">
+                    <span class="feature-icon">🔒</span>
+                    <div>
+                        <strong>Choose how you show up</strong>
+                        <p>Post with a nickname or share without displaying one.</p>
+                    </div>
+                </div>
+
+                <div class="privacy-feature">
+                    <span class="feature-icon">💭</span>
+                    <div>
+                        <strong>No perfect words needed</strong>
+                        <p>Just be real. This is a space for honest thoughts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="form-card" id="thoughtForm">
+                <div class="form-header">
+                    <div>
+                        <span class="form-kicker">THE STORY BOX</span>
+                        <h3>What's on your mind?</h3>
+                    </div>
+                    <span class="form-sparkle">✳</span>
+                </div>
+
+                <label for="studentName">Nickname <span>(optional)</span></label>
+                <input type="text" id="studentName" maxlength="30"
+                    placeholder="What should we call you?">
+
+                <label for="category">What's it about?</label>
+                <select id="category" required>
+                    <option value="">Choose a topic</option>
+                    <option>Academic Pressure</option>
+                    <option>Mental Load</option>
+                    <option>Friendships</option>
+                    <option>Future & Career</option>
+                    <option>Hostel Life</option>
+                    <option>Things Left Unsaid</option>
+                    <option>Small Wins</option>
+                    <option>Something Else</option>
+                </select>
+
+                <label for="thought">Your story <span id="charCount">0 / 600</span></label>
+                <textarea id="thought" rows="5" maxlength="600" required
+                    placeholder="Start wherever you want... no one is grading this."></textarea>
+
+                <label class="checkbox-row">
+                    <input type="checkbox" id="anonymous">
+                    <span>Post anonymously — don't display my nickname</span>
+                </label>
+
+                <button type="submit" class="primary-button submit-button">
+                    Put it out there <span>↗</span>
+                </button>
+
+                <p class="form-footnote">Please don't share passwords, phone numbers or private identifying details.</p>
+                <p class="form-status" id="thoughtStatus" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <!-- ANONYMOUS MESSAGE BOX -->
+        <section class="anonymous-section">
+            <div class="anonymous-box">
+                <div class="anonymous-text">
+                    <span class="anonymous-label">NO NAME. NO PRESSURE.</span>
+                    <h2>Some things are easier<br>when no one knows it's you.</h2>
+                    <p>Drop a short anonymous thought. No nickname needed.</p>
+                </div>
+
+                <form id="anonymousForm" class="anonymous-form">
+                    <textarea id="anonymousThought" maxlength="300" rows="3"
+                        required placeholder="Something I've never said out loud..."></textarea>
+                    <div class="anonymous-bottom">
+                        <span>ANONYMOUS POST · 300 CHARACTERS MAX</span>
+                        <button type="submit" class="light-button">Drop it here ↗</button>
+                    </div>
+                    <p class="form-status" id="anonymousStatus" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- MESSAGE WALL -->
+        <section class="section wall-section" id="wall">
+            <div class="section-heading wall-heading">
+                <div>
+                    <p class="section-label">WORDS FROM THE COMMUNITY</p>
+                    <h2>The message<br><span class="gradient-text">wall.</span></h2>
+                </div>
+                <p class="heading-description">
+                    Little reminders that somewhere, someone understands.
+                    Read a story, find a feeling you recognise, or share your own.
+                </p>
+            </div>
+
+            <div class="wall-toolbar">
+                <span id="postCount">0 STORIES SHARED</span>
+                <button type="button" id="clearFilter" class="text-button">Show all stories ↗</button>
+            </div>
+
+            <div class="message-grid" id="messageList">
+                <!-- Stories are added by script.js -->
+            </div>
+
+            <div class="empty-state" id="emptyState">
+                <span>💌</span>
+                <h3>The wall is waiting for its first story.</h3>
+                <p>Be the first to share something. It doesn't have to be perfect.</p>
+                <a href="#share" class="primary-button">Share your story ↗</a>
+            </div>
+        </section>
+
+        <!-- CLOSING -->
+        <section class="closing">
+            <p class="section-label">BEFORE YOU GO</p>
+            <h2>You're doing better<br>than you <span class="gradient-text">think.</span></h2>
+            <p>Take a breath. Drink some water. Give yourself a little credit.</p>
+            <a href="#home" class="secondary-button">Back to the top ↑</a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">
+            <span class="logo-icon">u.</span>
+            <span>unspoken<span class="logo-dot">.</span></span>
+        </a>
+
+        <p>Made for the thoughts we don't always say out loud.</p>
+        <a href="#share">Your voice matters ↗</a>
+        <span class="footer-copy">© 2026 UNSPOKEN · STUDENT PROJECT</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
